@@ -1,0 +1,27 @@
+{
+  "name": "log-monitor",
+  "version": "1.0.0",
+  "description": "日志监控器",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "keywords": [
+    "日志监控器"
+  ],
+  "author": "yifei.long",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@types/weixin-app": "^2.9.7",
+    "rollup": "^4.14.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7"
+  }
+}
